@@ -1,0 +1,25 @@
+
+
+body{
+    background-color: black;
+}
+.slide{
+    border: 2px solid red;
+    width: 40%;
+    height: 200px;
+    display:flex;
+    gap: 5px;
+}
+
+.slide img{
+    object-fit: contain;
+    height: 100%;
+    width: 10%;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition:all ease 1s;
+}
+
+.slide img:hover{
+    width: 100%;
+}
